@@ -1,0 +1,32 @@
+head {
+  color: bisque;
+  background-color: brown;
+}
+head > nav {
+  display: flex;
+}
+
+footer {
+  color: bisque;
+  background-color: brown;
+}
+
+.article, .section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  justify-content: center;
+}
+
+.article {
+  justify-content: space-between;
+}
+
+.heder {
+  color: aqua;
+}
+.heder__menu {
+  display: flex;
+}

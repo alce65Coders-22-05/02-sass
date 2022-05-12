@@ -1,0 +1,39 @@
+@use "variables";
+
+@mixin basic-colors {
+    color: variables.$primary-color;
+    background-color: variables.$secondary-color;
+}
+
+head {
+    @include basic-colors();
+    & > nav {
+        display: flex;
+    }
+}
+
+footer {
+    @include basic-colors();
+}
+
+%base {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    @extend %base;
+    justify-content: center;
+}
+
+.article {
+    @extend %base;
+    justify-content: space-between;
+}
+
+.heder {
+    color: aqua;
+    &__menu {
+        display: flex;
+    }
+}
