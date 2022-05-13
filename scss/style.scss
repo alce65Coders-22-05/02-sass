@@ -31,9 +31,18 @@ footer {
     justify-content: space-between;
 }
 
-.heder {
+.header {
     color: aqua;
     &__menu {
         display: flex;
+        &--big {
+            width: 100%;
+        }
+    }
+    &--big {
+        width: 100%;
+    }
+    &:hover {
+        color: crimson;
     }
 }

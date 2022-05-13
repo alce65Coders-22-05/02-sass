@@ -24,9 +24,18 @@ footer {
   justify-content: space-between;
 }
 
-.heder {
+.header {
   color: aqua;
 }
-.heder__menu {
+.header__menu {
   display: flex;
+}
+.header__menu--big {
+  width: 100%;
+}
+.header--big {
+  width: 100%;
+}
+.header:hover {
+  color: crimson;
 }
