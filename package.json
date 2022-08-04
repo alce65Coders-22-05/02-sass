@@ -1,19 +1,16 @@
 {
-    "name": "02-sass",
+    "name": "@week01/03-sass",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "keywords": [],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "sass": "sass scss:css -w --no-source-map"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "sass": "^1.51.0"
-    },
     "dependencies": {
         "bootstrap": "^5.1.3"
+    },
+    "devDependencies": {
+        "sass": "^1.51.0"
     }
 }
